@@ -1,0 +1,89 @@
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat; 
+    display: flex;
+    justify-content: center;
+    
+}
+.names {
+    margin-top: 50px;
+    text-align: center;
+}
+button{
+    display: block;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(248, 187, 5);
+    border: none;
+    color: aliceblue;
+    margin-top: 30px;
+    border-bottom: 2px solid;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: white;
+    animation: anim1 4s infinite;
+    
+    
+}
+@keyframes anim1{
+    to{
+        transform: scale(2);
+        
+    }
+}
+.amr{
+    transition-duration: 2s;
+}
+
+.amr:hover{
+    transform:rotate(5deg);
+  } 
+.mahmoud{
+    transition-duration: 2s;
+}
+.mahmoud:hover{
+   transform:rotate(5deg);
+
+}
+.mahmoud{
+    transition-duration: 2s;
+}
+.mahmoud:hover{
+   transform:rotate(5deg);
+
+}
+.mohamed{
+    transition-duration: 2s;
+}
+.mohamed:hover{
+   transform:rotate(5deg);
+
+}
+.fatima{
+    transition-duration: 2s;
+}
+.fatima:hover{
+   transform:rotate(5deg);
+
+}
+.ahmed{
+    transition-duration: 2s;
+}
+.ahmed:hover{
+   transform:rotate(5deg);
+
+}
+.mariam{
+    transition-duration: 2s;
+}
+.mariam:hover{
+   transform:rotate(5deg);
+
+}
+ 
+
+
